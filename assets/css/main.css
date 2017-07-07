@@ -1,9 +1,8 @@
-h1{
+#titulo{
 	color:  #ef66b9;
 	text-align: center;
 	padding-top: 50px;
 }
-.pokedex{
-	text-align: center;
-	border: 2px solid red;
+input{
+	background-color: red
 }
