@@ -6,3 +6,16 @@
 input{
 	background-color: red
 }
+#lupa{
+	color: black;
+	font-size: 29px;
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	background-color:  #dbdbdb;
+	border-radius: 5px;
+	padding: 15px;
+}

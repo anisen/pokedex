@@ -5,29 +5,35 @@
 	<title>PokeDex</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-
 	<section>
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
-				<div class="col m12">
+				<div class="col m11">
 					<h1 id="titulo">POKEDEX</h1>
 				</div>
-				<div class="col m12">
-					<input type="text" id="busqueda" class="col m12">
+				<div class="col m11">
+					<input type="text" id="busqueda" class="col m10">
+					<i class="medium material-icons" id="lupa">search</i>
 				</div>
 			</div>
 		</div>
 	</section>
-	<div class="pokemon">	
+	<div class="container">
+		<div class="row">
+			<div class="col m11">
+				<div class="pokemon">	
+				</div>
+				<div class="pokedex">
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="pokedex">
-	</div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
