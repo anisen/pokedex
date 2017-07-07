@@ -1,21 +1,27 @@
+*{
+	margin:0;
+	padding: 0;
+}
 #titulo{
 	color:  #ef66b9;
 	text-align: center;
 	padding-top: 50px;
 }
-input{
-	background-color: red
-}
 #lupa{
 	color: black;
 	font-size: 29px;
 }
-
+.btn{
+	height: 150px;
+	width: 150px;
+	margin: 5px;
+	box-shadow: none;
+	padding: 0;
+}
 img{
+	padding: 0;
+	margin:0;
 	width: 150px;
 	height: 150px;
-	margin: 10px;
-	background-color:  #dbdbdb;
-	border-radius: 5px;
-	padding: 15px;
+	background-color: #dbdbdb;
 }
